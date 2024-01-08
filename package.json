@@ -1,0 +1,23 @@
+{
+  "name": "noisy-apitest",
+  "version": "1.0.0",
+  "description": "A noisy api that randomly throws 500 errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielruss/noisy-apitest.git"
+  },
+  "author": "Daniel Russ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielruss/noisy-apitest/issues"
+  },
+  "homepage": "https://github.com/danielruss/noisy-apitest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
